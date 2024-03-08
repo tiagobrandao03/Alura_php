@@ -1,7 +1,7 @@
 <?php
 
 namespace Alura\Banco\Modelo;
-
+use \Alura\Banco\Modelo\AcessoPropriedades;
 /**
  * Class Endereco
  * @package Alura\Banco\Modelo
@@ -12,7 +12,7 @@ namespace Alura\Banco\Modelo;
  */
 final class Endereco
 {
-    use AcessoPropriedades;
+
 
     private $cidade;
     private $bairro;
